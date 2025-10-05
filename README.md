@@ -1,2 +1,0 @@
-# Listz
-Todo list
