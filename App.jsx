@@ -1,12 +1,16 @@
-import "./global.css"
+import "./global.css";
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+const App = () => {
   return (
     <View className="container flex-1 items-center justify-center border bg-sky-200">
 
-      <View className="border p-2 h-3/4 w-[90%] bg-white rounded-lg">
+      {/* Device vitals - Battery, Time, Network etc...*/}
+      <StatusBar hidden={true} style="" />
+
+      {/* Main Content */}
+      <View className="border p-8 h-3/4 w-[90%] bg-white rounded-lg">
         <Text className="text-4xl mb-8 border-b w-2/3">Tasks</Text>
         <Text className="text-2xl">1. Create Safe Area</Text>
         <Text className="text-2xl">2. Create Routes</Text>
@@ -16,9 +20,8 @@ export default function App() {
         <Text className="text-2xl">6. Consider saving template</Text>
       </View>
 
-      <StatusBar style="auto" />
     </View>
   );
-}
+};
 
-
+export default App;
