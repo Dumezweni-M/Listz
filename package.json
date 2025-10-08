@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
     "@react-navigation/native": "^7.1.18",
     "@react-navigation/native-stack": "^7.3.27",
     "babel-preset-expo": "^54.0.3",
@@ -19,6 +20,7 @@
     "react-native": "0.81.4",
     "react-native-reanimated": "~3.17.4",
     "react-native-safe-area-context": "^5.4.0",
+    "react-native-svg": "15.12.1",
     "react-native-worklets": "^0.6.0",
     "require": "^2.4.20"
   },

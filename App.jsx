@@ -30,6 +30,7 @@ const App = () => {
           <Stack.Screen
             name="Tasks"
             component={Tasks}
+            options={{ headerShown: true }}
           />
 
           {/* Calendar View */}
